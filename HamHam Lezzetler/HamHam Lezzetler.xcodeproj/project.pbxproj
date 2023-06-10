@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD3C5CDA2A2B451700ABC632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3C5CD92A2B451700ABC632 /* AppDelegate.swift */; };
+		FD3C5CDC2A2B451700ABC632 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3C5CDB2A2B451700ABC632 /* SceneDelegate.swift */; };
+		FD3C5CDE2A2B451700ABC632 /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3C5CDD2A2B451700ABC632 /* SignViewController.swift */; };
+		FD3C5CE12A2B451700ABC632 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD3C5CDF2A2B451700ABC632 /* Main.storyboard */; };
+		FD3C5CE42A2B451700ABC632 /* HamHam_Lezzetler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD3C5CE22A2B451700ABC632 /* HamHam_Lezzetler.xcdatamodeld */; };
+		FD3C5CE62A2B451800ABC632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD3C5CE52A2B451800ABC632 /* Assets.xcassets */; };
+		FD3C5CE92A2B451800ABC632 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD3C5CE72A2B451800ABC632 /* LaunchScreen.storyboard */; };
+		FD3C5CF42A2B451800ABC632 /* HamHam_LezzetlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3C5CF32A2B451800ABC632 /* HamHam_LezzetlerTests.swift */; };
+		FD3C5CFE2A2B451800ABC632 /* HamHam_LezzetlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3C5CFD2A2B451800ABC632 /* HamHam_LezzetlerUITests.swift */; };
+		FD3C5D002A2B451800ABC632 /* HamHam_LezzetlerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3C5CFF2A2B451800ABC632 /* HamHam_LezzetlerUITestsLaunchTests.swift */; };
+		FD3C5D142A2B469800ABC632 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3C5D132A2B469800ABC632 /* UIView+Extension.swift */; };
+		FD3C5D162A2B46E800ABC632 /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3C5D152A2B46E800ABC632 /* OnboardingSlide.swift */; };
+		FD3C5D192A2B475100ABC632 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3C5D182A2B475100ABC632 /* OnboardingViewController.swift */; };
+		FD3C5D1C2A2B478700ABC632 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3C5D1B2A2B478700ABC632 /* OnboardingCollectionViewCell.swift */; };
+		FD3C5D1E2A2B4CA400ABC632 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3C5D1D2A2B4CA400ABC632 /* SignUpViewController.swift */; };
+		FD3C5D202A2B4D0300ABC632 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3C5D1F2A2B4D0300ABC632 /* HomeViewController.swift */; };
+		FD3C5D222A2B4D1600ABC632 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3C5D212A2B4D1600ABC632 /* UploadViewController.swift */; };
+		FD3C5D242A2B67F100ABC632 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3C5D232A2B67F100ABC632 /* HomeCell.swift */; };
+		FD3C5D262A2B7B5000ABC632 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD3C5D252A2B7B5000ABC632 /* GoogleService-Info.plist */; };
+		FD3C5D292A2B7D0000ABC632 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = FD3C5D282A2B7D0000ABC632 /* FirebaseAnalytics */; };
+		FD3C5D2B2A2B7D0000ABC632 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FD3C5D2A2A2B7D0000ABC632 /* FirebaseAuth */; };
+		FD3C5D2D2A2B7D0000ABC632 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FD3C5D2C2A2B7D0000ABC632 /* FirebaseFirestore */; };
+		FD3C5D2F2A2B7D0000ABC632 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = FD3C5D2E2A2B7D0000ABC632 /* FirebaseStorage */; };
+		FDE2E4622A2CE33B0049D10D /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = FDE2E4612A2CE33B0049D10D /* SDWebImage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD3C5CF02A2B451800ABC632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD3C5CCE2A2B451700ABC632 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD3C5CD52A2B451700ABC632;
+			remoteInfo = "HamHam Lezzetler";
+		};
+		FD3C5CFA2A2B451800ABC632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD3C5CCE2A2B451700ABC632 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD3C5CD52A2B451700ABC632;
+			remoteInfo = "HamHam Lezzetler";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD3C5CD62A2B451700ABC632 /* HamHam Lezzetler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HamHam Lezzetler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3C5CD92A2B451700ABC632 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD3C5CDB2A2B451700ABC632 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FD3C5CDD2A2B451700ABC632 /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
+		FD3C5CE02A2B451700ABC632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD3C5CE32A2B451700ABC632 /* HamHam_Lezzetler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HamHam_Lezzetler.xcdatamodel; sourceTree = "<group>"; };
+		FD3C5CE52A2B451800ABC632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD3C5CE82A2B451800ABC632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD3C5CEA2A2B451800ABC632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD3C5CEF2A2B451800ABC632 /* HamHam LezzetlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HamHam LezzetlerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3C5CF32A2B451800ABC632 /* HamHam_LezzetlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamHam_LezzetlerTests.swift; sourceTree = "<group>"; };
+		FD3C5CF92A2B451800ABC632 /* HamHam LezzetlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HamHam LezzetlerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3C5CFD2A2B451800ABC632 /* HamHam_LezzetlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamHam_LezzetlerUITests.swift; sourceTree = "<group>"; };
+		FD3C5CFF2A2B451800ABC632 /* HamHam_LezzetlerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamHam_LezzetlerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FD3C5D132A2B469800ABC632 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		FD3C5D152A2B46E800ABC632 /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
+		FD3C5D182A2B475100ABC632 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		FD3C5D1B2A2B478700ABC632 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		FD3C5D1D2A2B4CA400ABC632 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FD3C5D1F2A2B4D0300ABC632 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FD3C5D212A2B4D1600ABC632 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		FD3C5D232A2B67F100ABC632 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		FD3C5D252A2B7B5000ABC632 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD3C5CD32A2B451700ABC632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3C5D292A2B7D0000ABC632 /* FirebaseAnalytics in Frameworks */,
+				FD3C5D2F2A2B7D0000ABC632 /* FirebaseStorage in Frameworks */,
+				FD3C5D2B2A2B7D0000ABC632 /* FirebaseAuth in Frameworks */,
+				FD3C5D2D2A2B7D0000ABC632 /* FirebaseFirestore in Frameworks */,
+				FDE2E4622A2CE33B0049D10D /* SDWebImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3C5CEC2A2B451800ABC632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3C5CF62A2B451800ABC632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD3C5CCD2A2B451700ABC632 = {
+			isa = PBXGroup;
+			children = (
+				FD3C5CD82A2B451700ABC632 /* HamHam Lezzetler */,
+				FD3C5CF22A2B451800ABC632 /* HamHam LezzetlerTests */,
+				FD3C5CFC2A2B451800ABC632 /* HamHam LezzetlerUITests */,
+				FD3C5CD72A2B451700ABC632 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD3C5CD72A2B451700ABC632 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD3C5CD62A2B451700ABC632 /* HamHam Lezzetler.app */,
+				FD3C5CEF2A2B451800ABC632 /* HamHam LezzetlerTests.xctest */,
+				FD3C5CF92A2B451800ABC632 /* HamHam LezzetlerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD3C5CD82A2B451700ABC632 /* HamHam Lezzetler */ = {
+			isa = PBXGroup;
+			children = (
+				FD3C5D0D2A2B453000ABC632 /* Application */,
+				FD3C5D122A2B45A900ABC632 /* Cells */,
+				FD3C5D112A2B459000ABC632 /* Controller */,
+				FD3C5D0C2A2B452500ABC632 /* Extensions */,
+				FD3C5D252A2B7B5000ABC632 /* GoogleService-Info.plist */,
+				FD3C5CE22A2B451700ABC632 /* HamHam_Lezzetler.xcdatamodeld */,
+				FD3C5CEA2A2B451800ABC632 /* Info.plist */,
+				FD3C5D102A2B455100ABC632 /* Model */,
+				FD3C5D0F2A2B454900ABC632 /* View */,
+			);
+			path = "HamHam Lezzetler";
+			sourceTree = "<group>";
+		};
+		FD3C5CF22A2B451800ABC632 /* HamHam LezzetlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD3C5CF32A2B451800ABC632 /* HamHam_LezzetlerTests.swift */,
+			);
+			path = "HamHam LezzetlerTests";
+			sourceTree = "<group>";
+		};
+		FD3C5CFC2A2B451800ABC632 /* HamHam LezzetlerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD3C5CFD2A2B451800ABC632 /* HamHam_LezzetlerUITests.swift */,
+				FD3C5CFF2A2B451800ABC632 /* HamHam_LezzetlerUITestsLaunchTests.swift */,
+			);
+			path = "HamHam LezzetlerUITests";
+			sourceTree = "<group>";
+		};
+		FD3C5D0C2A2B452500ABC632 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FD3C5D132A2B469800ABC632 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FD3C5D0D2A2B453000ABC632 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FD3C5CD92A2B451700ABC632 /* AppDelegate.swift */,
+				FD3C5CDB2A2B451700ABC632 /* SceneDelegate.swift */,
+				FD3C5CE52A2B451800ABC632 /* Assets.xcassets */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FD3C5D0F2A2B454900ABC632 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD3C5CDF2A2B451700ABC632 /* Main.storyboard */,
+				FD3C5CE72A2B451800ABC632 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD3C5D102A2B455100ABC632 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD3C5D152A2B46E800ABC632 /* OnboardingSlide.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD3C5D112A2B459000ABC632 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FD3C5CDD2A2B451700ABC632 /* SignViewController.swift */,
+				FD3C5D1D2A2B4CA400ABC632 /* SignUpViewController.swift */,
+				FD3C5D1F2A2B4D0300ABC632 /* HomeViewController.swift */,
+				FD3C5D212A2B4D1600ABC632 /* UploadViewController.swift */,
+				FD3C5D172A2B472800ABC632 /* Onboarding */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FD3C5D122A2B45A900ABC632 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FD3C5D1A2A2B476B00ABC632 /* Onboarding */,
+				FD3C5D232A2B67F100ABC632 /* HomeCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FD3C5D172A2B472800ABC632 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				FD3C5D182A2B475100ABC632 /* OnboardingViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		FD3C5D1A2A2B476B00ABC632 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				FD3C5D1B2A2B478700ABC632 /* OnboardingCollectionViewCell.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD3C5CD52A2B451700ABC632 /* HamHam Lezzetler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD3C5D032A2B451800ABC632 /* Build configuration list for PBXNativeTarget "HamHam Lezzetler" */;
+			buildPhases = (
+				FD3C5CD22A2B451700ABC632 /* Sources */,
+				FD3C5CD32A2B451700ABC632 /* Frameworks */,
+				FD3C5CD42A2B451700ABC632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HamHam Lezzetler";
+			packageProductDependencies = (
+				FD3C5D282A2B7D0000ABC632 /* FirebaseAnalytics */,
+				FD3C5D2A2A2B7D0000ABC632 /* FirebaseAuth */,
+				FD3C5D2C2A2B7D0000ABC632 /* FirebaseFirestore */,
+				FD3C5D2E2A2B7D0000ABC632 /* FirebaseStorage */,
+				FDE2E4612A2CE33B0049D10D /* SDWebImage */,
+			);
+			productName = "HamHam Lezzetler";
+			productReference = FD3C5CD62A2B451700ABC632 /* HamHam Lezzetler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD3C5CEE2A2B451800ABC632 /* HamHam LezzetlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD3C5D062A2B451800ABC632 /* Build configuration list for PBXNativeTarget "HamHam LezzetlerTests" */;
+			buildPhases = (
+				FD3C5CEB2A2B451800ABC632 /* Sources */,
+				FD3C5CEC2A2B451800ABC632 /* Frameworks */,
+				FD3C5CED2A2B451800ABC632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD3C5CF12A2B451800ABC632 /* PBXTargetDependency */,
+			);
+			name = "HamHam LezzetlerTests";
+			productName = "HamHam LezzetlerTests";
+			productReference = FD3C5CEF2A2B451800ABC632 /* HamHam LezzetlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD3C5CF82A2B451800ABC632 /* HamHam LezzetlerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD3C5D092A2B451800ABC632 /* Build configuration list for PBXNativeTarget "HamHam LezzetlerUITests" */;
+			buildPhases = (
+				FD3C5CF52A2B451800ABC632 /* Sources */,
+				FD3C5CF62A2B451800ABC632 /* Frameworks */,
+				FD3C5CF72A2B451800ABC632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD3C5CFB2A2B451800ABC632 /* PBXTargetDependency */,
+			);
+			name = "HamHam LezzetlerUITests";
+			productName = "HamHam LezzetlerUITests";
+			productReference = FD3C5CF92A2B451800ABC632 /* HamHam LezzetlerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD3C5CCE2A2B451700ABC632 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					FD3C5CD52A2B451700ABC632 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					FD3C5CEE2A2B451800ABC632 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = FD3C5CD52A2B451700ABC632;
+					};
+					FD3C5CF82A2B451800ABC632 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = FD3C5CD52A2B451700ABC632;
+					};
+				};
+			};
+			buildConfigurationList = FD3C5CD12A2B451700ABC632 /* Build configuration list for PBXProject "HamHam Lezzetler" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD3C5CCD2A2B451700ABC632;
+			packageReferences = (
+				FD3C5D272A2B7D0000ABC632 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				FDE2E4602A2CE33A0049D10D /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
+			productRefGroup = FD3C5CD72A2B451700ABC632 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD3C5CD52A2B451700ABC632 /* HamHam Lezzetler */,
+				FD3C5CEE2A2B451800ABC632 /* HamHam LezzetlerTests */,
+				FD3C5CF82A2B451800ABC632 /* HamHam LezzetlerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD3C5CD42A2B451700ABC632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3C5CE92A2B451800ABC632 /* LaunchScreen.storyboard in Resources */,
+				FD3C5D262A2B7B5000ABC632 /* GoogleService-Info.plist in Resources */,
+				FD3C5CE62A2B451800ABC632 /* Assets.xcassets in Resources */,
+				FD3C5CE12A2B451700ABC632 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3C5CED2A2B451800ABC632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3C5CF72A2B451800ABC632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD3C5CD22A2B451700ABC632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3C5CDE2A2B451700ABC632 /* SignViewController.swift in Sources */,
+				FD3C5CE42A2B451700ABC632 /* HamHam_Lezzetler.xcdatamodeld in Sources */,
+				FD3C5CDA2A2B451700ABC632 /* AppDelegate.swift in Sources */,
+				FD3C5D1C2A2B478700ABC632 /* OnboardingCollectionViewCell.swift in Sources */,
+				FD3C5D142A2B469800ABC632 /* UIView+Extension.swift in Sources */,
+				FD3C5D202A2B4D0300ABC632 /* HomeViewController.swift in Sources */,
+				FD3C5D192A2B475100ABC632 /* OnboardingViewController.swift in Sources */,
+				FD3C5D1E2A2B4CA400ABC632 /* SignUpViewController.swift in Sources */,
+				FD3C5D162A2B46E800ABC632 /* OnboardingSlide.swift in Sources */,
+				FD3C5CDC2A2B451700ABC632 /* SceneDelegate.swift in Sources */,
+				FD3C5D242A2B67F100ABC632 /* HomeCell.swift in Sources */,
+				FD3C5D222A2B4D1600ABC632 /* UploadViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3C5CEB2A2B451800ABC632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3C5CF42A2B451800ABC632 /* HamHam_LezzetlerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3C5CF52A2B451800ABC632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3C5D002A2B451800ABC632 /* HamHam_LezzetlerUITestsLaunchTests.swift in Sources */,
+				FD3C5CFE2A2B451800ABC632 /* HamHam_LezzetlerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD3C5CF12A2B451800ABC632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD3C5CD52A2B451700ABC632 /* HamHam Lezzetler */;
+			targetProxy = FD3C5CF02A2B451800ABC632 /* PBXContainerItemProxy */;
+		};
+		FD3C5CFB2A2B451800ABC632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD3C5CD52A2B451700ABC632 /* HamHam Lezzetler */;
+			targetProxy = FD3C5CFA2A2B451800ABC632 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD3C5CDF2A2B451700ABC632 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD3C5CE02A2B451700ABC632 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD3C5CE72A2B451800ABC632 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD3C5CE82A2B451800ABC632 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD3C5D012A2B451800ABC632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD3C5D022A2B451800ABC632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD3C5D042A2B451800ABC632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VZCA6G77C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HamHam Lezzetler/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.defnecetiner.HamHam-Lezzetler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD3C5D052A2B451800ABC632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VZCA6G77C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HamHam Lezzetler/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.defnecetiner.HamHam-Lezzetler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD3C5D072A2B451800ABC632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VZCA6G77C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.defnecetiner.HamHam-LezzetlerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HamHam Lezzetler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HamHam Lezzetler";
+			};
+			name = Debug;
+		};
+		FD3C5D082A2B451800ABC632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VZCA6G77C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.defnecetiner.HamHam-LezzetlerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HamHam Lezzetler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HamHam Lezzetler";
+			};
+			name = Release;
+		};
+		FD3C5D0A2A2B451800ABC632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VZCA6G77C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.defnecetiner.HamHam-LezzetlerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HamHam Lezzetler";
+			};
+			name = Debug;
+		};
+		FD3C5D0B2A2B451800ABC632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VZCA6G77C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.defnecetiner.HamHam-LezzetlerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HamHam Lezzetler";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD3C5CD12A2B451700ABC632 /* Build configuration list for PBXProject "HamHam Lezzetler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD3C5D012A2B451800ABC632 /* Debug */,
+				FD3C5D022A2B451800ABC632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD3C5D032A2B451800ABC632 /* Build configuration list for PBXNativeTarget "HamHam Lezzetler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD3C5D042A2B451800ABC632 /* Debug */,
+				FD3C5D052A2B451800ABC632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD3C5D062A2B451800ABC632 /* Build configuration list for PBXNativeTarget "HamHam LezzetlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD3C5D072A2B451800ABC632 /* Debug */,
+				FD3C5D082A2B451800ABC632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD3C5D092A2B451800ABC632 /* Build configuration list for PBXNativeTarget "HamHam LezzetlerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD3C5D0A2A2B451800ABC632 /* Debug */,
+				FD3C5D0B2A2B451800ABC632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FD3C5D272A2B7D0000ABC632 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		FDE2E4602A2CE33A0049D10D /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FD3C5D282A2B7D0000ABC632 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD3C5D272A2B7D0000ABC632 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		FD3C5D2A2A2B7D0000ABC632 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD3C5D272A2B7D0000ABC632 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		FD3C5D2C2A2B7D0000ABC632 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD3C5D272A2B7D0000ABC632 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		FD3C5D2E2A2B7D0000ABC632 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD3C5D272A2B7D0000ABC632 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		FDE2E4612A2CE33B0049D10D /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FDE2E4602A2CE33A0049D10D /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		FD3C5CE22A2B451700ABC632 /* HamHam_Lezzetler.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD3C5CE32A2B451700ABC632 /* HamHam_Lezzetler.xcdatamodel */,
+			);
+			currentVersion = FD3C5CE32A2B451700ABC632 /* HamHam_Lezzetler.xcdatamodel */;
+			path = HamHam_Lezzetler.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FD3C5CCE2A2B451700ABC632 /* Project object */;
+}
